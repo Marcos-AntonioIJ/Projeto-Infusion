@@ -1,4 +1,96 @@
 * {
     margin:0;
     padding: 0;
+    font-family: Open Sans;
+    text-decoration: none;
 }
+
+button{
+    display: block;
+    background-color: #5FBDB1;
+    border-radius: 5px;
+}
+
+img {
+    max-width:100%;
+}
+
+.TitleInfusion{
+    display: block;
+    width: 30%;
+    padding: 20px;
+    background-color: #5FBDB1;
+    font-size: large;
+    color: white;
+    text-align: center;
+}
+
+.Menu li{
+    width: 100%;
+    background-color: #232C2C;
+    text-align: center;
+    border-style: solid;
+    border-color: rgba(128,120,120,0.2);
+    border-width: 1px;
+}
+
+.Menu li a{
+    display: block;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+.Menu li a:hover{
+    color:rgb(55, 143, 143);
+    transition: ease-in 0.5s;
+}
+
+
+.hero{
+    bottom: 21px;
+    text-align: center;
+    position: relative;
+    background-image: url('../img/herobg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+
+}
+
+.herotitle{
+    font-weight: 600;
+    padding-top: 40px;
+    color: whitesmoke;
+}
+
+.herotext{
+    font-weight: lighter;
+    color: whitesmoke;
+}
+
+.herolink{
+    position: absolute;
+    margin-top: 50px;
+    padding: 15px;
+    width: 50%;
+    display: block;
+    background-color: #5FBDB1;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    left: 20%;
+    
+}
+
+.herolink:hover{
+    background-color: #6cd8ca;
+    transition: ease 0.5s;
+}
+
+
