@@ -142,48 +142,51 @@ img {
 
 .images-section{
     margin: 80px 0px;
-    border: black solid 1px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    outline: black solid 5px;
 }
 
-.header-images-section{
-    background-color: rgb(10, 66, 66);
-    width: 100%;
-    height:150px;
-}
 
 .title-images-section{
+
     color: whitesmoke;
-    margin-top: -30%;
     padding: 30px;
-    background-color: rgba(55, 143, 143,0.6);
-    outline:black 4px solid;
-    border-radius: 4px;
-    font-weight: 800;
+    margin: auto;
+    background-color: rgba(8, 99, 76, 0.8);
+    font-weight: 900;
     font-size: 30px;
 }
 
-.articles-gallery{
-    border: 0px;
-    margin-top: 20%;
+.header-images-section{
+    text-align: center;
+    width: 100%;
 }
+
 
 .articles-gallery img{
-    border: 0px;
-
-    max-height: 320px;
-    outline-offset: -1.0px;
-    outline: black solid;
+    outline:5px black groove;
+    outline-offset: -4px;
 }
 
-.gallery-hover{
+.articles-gallery a{
+    position: relative;
+    display: block;
+}
 
-    background-color: black;
-    height: 320px;
-    width: 80%;
-    margin: auto;
-    max-height: 320px;
-    opacity: 60%;
+.hover-effect{
+    margin: -101% 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.815),rgba(0, 0, 0, 0.712));
+    opacity: 0.0;
+    outline:5px rgba(14, 250, 199,0.8) groove;
+    outline-offset: -9px;
+}
 
-   
+.articles-gallery a:hover .hover-effect{
+    opacity: 0.6;
 }

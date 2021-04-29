@@ -1,17 +1,18 @@
 var $galleryhover = document.querySelector(".gallery-hover");
 var $totalGalleryImages = 11;
 var $images = {};
+var $mouseX;
+var $mouseY;
+
 for(var x=0;x <= $totalGalleryImages;x++){
 $images[x] = document.getElementsByClassName("img-gallery")[x]; 
 }
 
-
-for(var x=0;x <= $totalGalleryImages;x++){
-$images[x].addEventListener('mouseover', function(){ 
-   console.log($galleryhover.);
+ document.querySelector("html").addEventListener("mousemove",function(e){
+    $mouseX = e.clientX;
+    $mouseY = e.clientY;
 })
-}
 
-$mouse = function(e){
-    $mouseX = e.
-}
+
+
+
